@@ -238,7 +238,7 @@ transition: all 0.4s ease-out 0s;
 }
 .service-card:hover {
   background-color: hwb(263 18% 0%);
-
+  z-index: -1;
 }
 .service-card:hover .service-card__title ,
 .service-card:hover .service-card__description,
@@ -337,6 +337,7 @@ left: 80px;
 color: white;
 visibility: hidden;
 transition: all 0.4s ease-out 0s;
+  z-index: -1;
 }
 .portfolio-item__info a {
   color: white;
